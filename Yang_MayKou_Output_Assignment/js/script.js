@@ -6,4 +6,12 @@ Week 1
 Output Assignment
  */
 
-alert("Javascript is functioning.")
+//alert("Javascript is functioning.")
+
+//Variables
+
+var vehicleYear = "2013";
+var  vehicleMake = "Honda";
+var vehicleModel = "Accord";
+var stickerPrice = 25000;
+var madePurchase = true;
