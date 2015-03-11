@@ -5,4 +5,5 @@
 
 //alert("Javascript is working!")
 
-prompt("Enter your year of birth.");
+var userInput = prompt("Enter your year of birth.");
+console.log(userInput);
