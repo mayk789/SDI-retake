@@ -5,4 +5,4 @@
 
 //alert("Javascript is working!")
 
-prompt();
+prompt("Enter your year of birth.");
