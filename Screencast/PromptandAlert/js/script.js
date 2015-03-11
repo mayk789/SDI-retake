@@ -1,6 +1,8 @@
 /**
  * Created by maykouyang on 3/10/15.
  */
-//Prompt & Alert
+// Screencast: Prompt & Alert
 
-alert("Javascript is working!")
+//alert("Javascript is working!")
+
+prompt();
