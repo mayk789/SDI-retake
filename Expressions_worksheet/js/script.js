@@ -5,3 +5,4 @@
 
 //Problem: Calculating how old Sparky is in dog years based on actual age.
 
+var humanYears = prompt("How old is Sparky in human years?"); //prompts user to enter number
