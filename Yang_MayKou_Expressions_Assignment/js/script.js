@@ -5,3 +5,5 @@ MDV2330-O
 Week 2
 Expressions Assignment
  */
+
+alert("Javascript is working");
