@@ -9,3 +9,4 @@ var humanYears = prompt("How old is Sparky in human years?"); //prompts user to 
 var dogYears = humanYears * 7;// calculates dog years by human years
 
 
+console.log("Sparky is " + humanYears + " human years old which is " + dogYears + " dog years old."); // prints info to the console
