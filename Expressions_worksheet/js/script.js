@@ -19,7 +19,6 @@ var slicesPerPizza = prompt("How many slices are there per pizza?"); //prompts u
 var people = prompt("How many will be attending?"); //prompts user to enter number of people attending
 var pizza = prompt("How many pizzas will be ordered?"); //prompts user to enter the number of pizzas that will be ordered
 var slicesTotal = (pizza * slicesPerPizza); //calculates total number of slices
-console.log(slicesTotal);
 var personEats = slicesTotal / people; //calculates the number of slices that each person gets
 
-console.log("Each person ate " + personEats + " slices of pizza at the party.")
+console.log("Each person ate " + personEats + " slices of pizza at the party.")//prints number of slices of pizza each person ate to the console.
