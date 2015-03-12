@@ -14,5 +14,7 @@ console.log("Sparky is " + humanYears + " human years old which is " + dogYears 
 //Slice of Pie part 1
 var slicesPerPizza = prompt("How many slices are there per pizza?"); //prompts user to enter number of slices per pizza
 var people = prompt("How many will be attending?"); //prompts user to enter number of people attending
-var pizza = "How many pizzas will be ordered?";//prompts user to enter the number of pizzas that will be ordered
+var pizza = "How many pizzas will be ordered?"; //prompts user to enter the number of pizzas that will be ordered
+var slicesTotal = pizza / slicesPerPizza; //Performs calculations to show how many slices there are going to be overall
+var personEats = slicesTotal / people; //calculates the number of slices that each person gets
 
