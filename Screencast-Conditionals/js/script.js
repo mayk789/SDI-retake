@@ -14,3 +14,4 @@ if(oldEnough){
     //code performed if condition it true
     console.log("You can ride the coaster!");
 }
+console.log("What comes after.");
