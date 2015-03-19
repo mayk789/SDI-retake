@@ -16,15 +16,7 @@ if(condition){
 (condition) ? do if true : do if false;
 */
 
-/*
-var gpa = 48;
-//if gpa is over the minimum 2.0, the student can graduate
+var age = 11;
+var book;
 
-if(gpa > 2.0){
-    console.log("You can graduate!");
-}else{
-    console.log("GPA is too low!");
-}
-*/
-
-(gpa > 2.0) ? console.log("You can graduate!") : console.log("GPA is too low!");
+//if child is under 10, they get "Green Eggs and Ham", otherwise they get "The Time Machine"
