@@ -13,7 +13,7 @@ var calIntake;
 var calBurned;
 var totalCalLeft;
 var female = true;//Boolean which indicates gender of user.
-var dailyCalGoal = [2000, 2500]; //Average recommended calorie intake for women is 2,000. Whereas, for men, it is 2500.
+var dailyCalIntake = [2000, 2500]; //Average recommended calorie intake for women is 2,000. Whereas, for men, it is 2500.
 var sliceOfPie = 400; //number of calories in a slice of apple pie
 
 //Prompts
@@ -39,5 +39,11 @@ if (calBurned >= 1500){
 }
 
 //Confirm
-female = confirm("Are you a female? Click \"Ok\" for true or \"Cancel\" for false.")
+female = confirm("Are you a female? Click \"Ok\" for true or \"Cancel\" for false. Your gender will affect your daily recommended calorie intake.");
+
+if(female !== true){
+    console.log("Daily recommended calorie intake for men is " + dailyCalIntake[1] + ".");
+}else{
+    console.log("For women, the daily recommended calorie intake is " +dailyCalIntake[0] + ".");
+}
 
