@@ -26,7 +26,7 @@ if (calIntake > 0) {
     //runs this if it is true that calIntake is greater than 0
     console.log("Your calorie intake for today is " + calIntake + ".");
 } else {
-    // if <= 0, run this
+    // if initial is false (<= 0), run this
     calIntake = prompt("Please enter total number of calories you consumed today. Your intake should not be 0.");//Prompts for value greater than 0
     console.log("Okay, your calorie intake is " + calIntake + " for today.");
 };
@@ -42,7 +42,7 @@ if (calBurned >= 1500){
     console.log("You used " + calBurned + " calories today. Not bad!");
 }else{
     //run this if data entered is less than 400
-    console.log("You burned only " + calBurned + " calories. Come one you can do more than that!")
+    console.log("You burned only " + calBurned + " calories. Come one you can do better than that!")
 }
 //calculates the totalCalLeft variable using the values entered by the user for calIntake & calBurned
 totalCalLeft = calIntake - calBurned;
