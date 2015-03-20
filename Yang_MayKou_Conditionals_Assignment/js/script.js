@@ -14,22 +14,25 @@ var calBurned;
 var female = true;//Boolean which indicates the gender of user.
 var dailyCalIntake = [2000, 2500]; //Average daily recommended calorie intake for women is 2,000. Whereas, for men, it is 2500.
 var totalCalLeft;
-
+var sliceOfPie = 400;//calories in a slice of apple pie
+var sweetTreat;
 
 //Prompts
 
-var calIntake = prompt("Please enter in the total amount of calories you consumed today.");//prompts user for a value
+//prompts user to enter value for calIntake
+var calIntake = prompt("Please enter in the total amount of calories you consumed today.");
 calIntake = Number(calIntake); //makes sure this will be a number
 if (calIntake > 0) {
     //runs this if it is true that calIntake is greater than 0
     console.log("Your calorie intake for today is " + calIntake + ".");
 } else {
     // if <= 0, run this
-    calIntake = prompt("Please enter total number of calories you consumed today. Your intake should not be 0.");
+    calIntake = prompt("Please enter total number of calories you consumed today. Your intake should not be 0.");//Prompts for value greater than 0
     console.log("Okay, your calorie intake is " + calIntake + " for today.");
 };
 
-var calBurned = prompt("Enter the number of calories that you used today.");//prompts user to enter value for calBurned
+//prompts user to enter value for calBurned
+var calBurned = prompt("Enter the number of calories that you burned today.");
 calBurned = Number(calBurned); //ensures that the value will be a number
 if (calBurned >= 1500){
     //run this if data entered in greater than or equal to 1500
@@ -56,4 +59,7 @@ if(female !== true){
 }
 
 //Output
-console.log("Your calorie count for the end of the day is" + totalCalLeft + ".")
+console.log("Your calorie count for the end of the day is " + totalCalLeft + ".")
+
+//Ternary Operator
+sweetTreat = (totalCalLeft <= sliceOfPie) ? console.log("Hooray! You can have a slice of pie.") : console.log("Sorry, you can't have any pie.");
