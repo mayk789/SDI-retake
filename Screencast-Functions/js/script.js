@@ -1,3 +1,8 @@
-/**
- * Created by maykouyang on 3/22/15.
+/*
+Week 4
+Screen cast: Functions
  */
+
+//alert("Javascript is working.");
+
+
