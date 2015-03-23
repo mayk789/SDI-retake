@@ -17,3 +17,5 @@ function calcArea(){
 }
 
 calcArea();
+calcArea();
+calcArea();
