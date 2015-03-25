@@ -8,3 +8,5 @@ Functions Assigment
 
 //alert("Javascript is working!");
 
+//Variables
+
