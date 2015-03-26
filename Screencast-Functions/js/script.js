@@ -1,15 +1,11 @@
 /*
 Week 4
-Screen cast: Functions - Anonymous Functions
+Screen cast: Loops
 */
 
+var b = 10;
 
-var calcArea = function(width, height){//defines the function
-    //code that function runs
-    var area = width * height;
-    return area;
+while (b > 0){
+    console.log(b + " kegs on the wall");
+    b--;
 }
-
-var a = calcArea(20, 30); //invokes (or calls) the funciton
-
-console.log(a);
