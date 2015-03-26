@@ -3,9 +3,9 @@ Week 4
 Screen cast: Loops
 */
 
-var b = 10;
+var b = 10; //sets the index
 
-while (b > 0){
+while (b > 0){ //this block checks condition
     console.log(b + " kegs on the wall");
-    b--;
+    b--; //this increments or decrements the index
 }
