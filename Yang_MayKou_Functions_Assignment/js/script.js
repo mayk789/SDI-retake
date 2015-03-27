@@ -19,13 +19,14 @@ var lotteryGame = prompt("Please enter which lottery game you would like to purc
 if (lotteryGame === "Florida"){//runs it "Florida" is entered
     console.log("So you wish to purchase a " + lotteryGame + " lottery ticket!");//this prints to the console if "Florida" is entered
 
-}else if (lotteryGame === "Powerball"){
+}else if (lotteryGame === "Powerball"){//runs if "Powerball" is entered
 
-    console.log("Buying a " + lotteryGame + "? Good luck!");
+    console.log("Buying a " + lotteryGame + "? Good luck!");//this prints to the console if "Powerball" is entered
 
-}else{
-    lotteryGame = prompt("Looks like you did not enter Florida or Powerball. Please enter one of the two.");
-    console.log("Glad you came to a decision. You'll be getting a " + lotteryGame + " ticket.");
+}else{//runs if anything other than "Florida" or "Powerball" has been entered by user
+    lotteryGame = prompt("Looks like you did not enter Florida or Powerball. Please enter one of the two.");//Prompts the user again to enter either "Florida" or "Powerball"
+    console.log("Glad you came to a decision. You'll be getting your " + lotteryGame + " ticket.");//user input is printed to the console
 }
+
 
 //Main code
