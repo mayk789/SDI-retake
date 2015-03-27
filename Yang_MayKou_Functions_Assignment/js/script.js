@@ -17,27 +17,29 @@ Functions Assignment
 
 //Variable
 var lotteryGame; //Lottery game of choice.
-var floridaTicket;
-var powerballTicket;
-var powerballNum;
+var floridaTicket;//numbers for Florida lottery ticket
+var powerballTicket;//first 5 numbers for Powerball ticket
+var powerballNum;//last number for the Powerball ticket
 
 //Prompt
 var lotteryGame = prompt("Please enter which lottery game you would like to purchase a ticket for. Enter either Florida or Powerball."); //Prompts the user to enter which lottery game they would like to purchase a ticket for.
 
 
-if (lotteryGame === "Florida"){//runs it "Florida" is entered
+if (lotteryGame === "Florida"){//runs if "Florida" is entered
     console.log("So you wish to purchase a " + lotteryGame + " lottery ticket? Good luck with your numbers!");//this concatenation prints to the console if "Florida" is entered
 
 }else if (lotteryGame === "Powerball"){//runs if "Powerball" is entered
     console.log("Buying a " + lotteryGame + " ticket? Good luck on it!");//this concatenation prints to the console if "Powerball" is entered
 
-}else{//runs if anything other than "Florida" or "Powerball" has been entered by user
+}else{
     lotteryGame = prompt("Looks like you did not enter Florida or Powerball. Please enter one of the two.");//Prompts the user again to enter either "Florida" or "Powerball"
     console.log("Glad you came to a decision. You'll be getting your " + lotteryGame + " ticket in a moment.");//user input is printed to the console
 }
 
 
 //Function
+
+function whichLottery
 
 function randomNumberDrawn(min, max, digit){//settings for parameters
 
@@ -59,22 +61,13 @@ function randomNumberDrawn(min, max, digit){//settings for parameters
 
 if(lotteryGame === "Florida"){ //Florida lottery
     floridaTicket = randomNumberDrawn(1, 53, 6);//sets min to 1, max to 53, and sets the digits/loops to 6
-    console.log(floridaTicket);
+    console.log("Here are your numbers: "  + floridaTicket);
 }else if(lotteryGame === "Powerball"){ //Powerball lottery
     powerballTicket = randomNumberDrawn(1, 59, 5);//sets min to 1, max to 59, & sets the digits/loops to 5. These are the first 5 numbers of the Powerball
     powerballNum = randomNumberDrawn(1, 35, 1);//sets min to 1, max to 35, & sets it at 1 digit/loop. This is the last Powerball number
-    console.log(powerballTicket + "," +powerballNum);
+    console.log("These are your numbers: " + powerballTicket + "," +powerballNum);
 }
 
 
-
-
-
-
-//Powerball powerball
-
-
-
-//While Loop
 
 
