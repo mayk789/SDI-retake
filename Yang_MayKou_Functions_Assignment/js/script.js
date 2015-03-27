@@ -16,7 +16,6 @@ Functions Assignment
 
 
 //Variable
-var lotteryGame; //Lottery game of choice.
 var floridaTicket;//numbers for Florida lottery ticket
 var powerballTicket;//first 5 numbers for Powerball ticket
 var powerballNum;//last number for the Powerball ticket
@@ -32,8 +31,8 @@ if (lotteryGame === "Florida"){//runs if "Florida" is entered
     console.log("Buying a " + lotteryGame + " ticket? Good luck on it!");//this concatenation prints to the console if "Powerball" is entered
 
 }else{
-    lotteryGame = prompt("You need to choose and enter either Florida or Powerball. Please do so in the space.");
-    console.log("Glad that you made a decision. You will be getting your " + lotteryGame + " ticket in a moment.");
+    lotteryGame = prompt("You need to choose and enter either Florida or Powerball. Please do so in the space.");//prompts user again to enter either "Florida" or "Powerball"
+    console.log("Glad that you made a decision. You will be getting your " + lotteryGame + " ticket in a moment.");//prints to the console
 
 }
 
